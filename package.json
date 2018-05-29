@@ -4,8 +4,21 @@
   "description": "this is my first learner and git",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "author": "anuj",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuj1998/tests-git.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anuj1998/tests-git/issues"
+  },
+  "homepage": "https://github.com/anuj1998/tests-git#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
 }
